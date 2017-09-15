@@ -2,5 +2,8 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-radio-button'
+  name: 'ember-radio-button',
+  isDevelopingAddon: function() {
+    return true;
+  }
 };
